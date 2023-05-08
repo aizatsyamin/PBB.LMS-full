@@ -1,0 +1,126 @@
+DEBUG 2023-05-09 01:09:48,629 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-05-09 01:09:56,967 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2023-05-09 01:09:56,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PBB.LMS.Web.Startup.LMSWebMvcModule, PBB.LMS.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,981 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PBB.LMS.LMSWebCoreModule, PBB.LMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,981 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PBB.LMS.LMSApplicationModule, PBB.LMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,982 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PBB.LMS.LMSCoreModule, PBB.LMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,982 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,982 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PBB.LMS.EntityFrameworkCore.LMSEntityFrameworkModule, PBB.LMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:56,987 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2023-05-09 01:09:57,414 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-09 01:09:57,414 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-09 01:09:57,414 [1    ] o.Configuration.LanguageManagementConfig - Converted LMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-09 01:09:57,414 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-09 01:09:57,983 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PBB.LMS.EntityFrameworkCore.LMSDbContext, PBB.LMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:09:58,176 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-05-09 01:09:58,224 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-05-09 01:09:58,235 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-05-09 01:09:58,240 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LMS
+DEBUG 2023-05-09 01:09:58,243 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-05-09 01:09:58,257 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-05-09 01:09:58,261 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[PBB.LMS.MultiTenancy.Tenant, PBB.LMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PBB.LMS.Authorization.Users.User, PBB.LMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2023-05-09 01:09:58,327 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2023-05-09 01:09:58,327 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2023-05-09 01:09:58,334 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Users.Dto.CreateUserDto
+DEBUG 2023-05-09 01:09:58,335 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Users.Dto.UserDto
+DEBUG 2023-05-09 01:09:58,335 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2023-05-09 01:09:58,335 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2023-05-09 01:09:58,335 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Roles.Dto.PermissionDto
+DEBUG 2023-05-09 01:09:58,335 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2023-05-09 01:09:58,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.MultiTenancy.Dto.TenantDto
+DEBUG 2023-05-09 01:09:58,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2023-05-09 01:09:58,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Web.Models.Roles.EditRoleModalViewModel
+WARN  2023-05-09 01:10:00,261 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2023-05-09 01:10:00,640 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'LMSDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+INFO  2023-05-09 01:10:03,325 [5    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'LMSDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+ERROR 2023-05-09 01:10:18,080 [1    ] .EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'LMSDb' on server 'localhost'.
+ERROR 2023-05-09 01:10:18,080 [5    ] .EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'LMSDb' on server 'localhost'.
+DEBUG 2023-05-09 01:15:02,369 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2023-05-09 01:15:02,428 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2023-05-09 01:15:02,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PBB.LMS.Web.Startup.LMSWebMvcModule, PBB.LMS.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PBB.LMS.LMSWebCoreModule, PBB.LMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PBB.LMS.LMSApplicationModule, PBB.LMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PBB.LMS.LMSCoreModule, PBB.LMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PBB.LMS.EntityFrameworkCore.LMSEntityFrameworkModule, PBB.LMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=7.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:02,450 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2023-05-09 01:15:02,526 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-09 01:15:02,526 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-09 01:15:02,526 [1    ] o.Configuration.LanguageManagementConfig - Converted LMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-09 01:15:02,526 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2023-05-09 01:15:02,898 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PBB.LMS.EntityFrameworkCore.LMSDbContext, PBB.LMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2023-05-09 01:15:03,075 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2023-05-09 01:15:03,114 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2023-05-09 01:15:03,125 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2023-05-09 01:15:03,130 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LMS
+DEBUG 2023-05-09 01:15:03,134 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2023-05-09 01:15:03,144 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2023-05-09 01:15:03,147 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[PBB.LMS.MultiTenancy.Tenant, PBB.LMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PBB.LMS.Authorization.Users.User, PBB.LMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2023-05-09 01:15:03,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2023-05-09 01:15:03,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2023-05-09 01:15:03,216 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Users.Dto.CreateUserDto
+DEBUG 2023-05-09 01:15:03,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Users.Dto.UserDto
+DEBUG 2023-05-09 01:15:03,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2023-05-09 01:15:03,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2023-05-09 01:15:03,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Roles.Dto.PermissionDto
+DEBUG 2023-05-09 01:15:03,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2023-05-09 01:15:03,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.MultiTenancy.Dto.TenantDto
+DEBUG 2023-05-09 01:15:03,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2023-05-09 01:15:03,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PBB.LMS.Web.Models.Roles.EditRoleModalViewModel
+WARN  2023-05-09 01:15:04,848 [1    ] oft.EntityFrameworkCore.Model.Validation - Entity 'Edition' has a global query filter defined and is the required end of a relationship with the entity 'EditionFeatureSetting'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+INFO  2023-05-09 01:15:05,242 [1    ] osoft.EntityFrameworkCore.Infrastructure - Entity Framework Core 6.0.4 initialized 'LMSDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+ERROR 2023-05-09 01:15:07,075 [1    ] oft.EntityFrameworkCore.Database.Command - Failed executing DbCommand (49ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name]
+FROM [AbpEditions] AS [a]
+WHERE [a].[Name] = N'Standard'
+ERROR 2023-05-09 01:15:07,153 [1    ] Microsoft.EntityFrameworkCore.Query      - An exception occurred while iterating over the results of a query for context type 'PBB.LMS.EntityFrameworkCore.LMSDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AbpEditions'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:361ece62-ba43-442a-bf44-d68141b4b76d
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AbpEditions'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:361ece62-ba43-442a-bf44-d68141b4b76d
+Error Number:208,State:1,Class:16
